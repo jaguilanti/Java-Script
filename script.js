@@ -39,7 +39,6 @@ while (codProd != 0) {
     codProd = parseInt(prompt('Seleccione un producto\n1-Remeras\n2-Pantalon\n3-Buzos\n4-Shorts\n5-Calzado\n0-Salir del programa 📤'));
 }
 
-alert("Gracias Por Su Visita!!!")
 
 if (total != 0) {
 
@@ -74,6 +73,8 @@ if (total != 0) {
         alert('Codigo inválido 😕');
     }
 }
+
+alert("Gracias Por Su Visita!!!")
 
 function aplicarImpuestosyDescuentos(impuestos, descuentos) {
     let totalConImpuestos = total * (1 + impuestos);
