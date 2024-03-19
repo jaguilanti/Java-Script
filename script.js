@@ -9,7 +9,6 @@ alert("Bienvenido a Sorella")
 let codProd = parseInt(prompt('Seleccione un producto\n1-Remeras...$5000\n2-Pantalon...$30000\n3-Buzos...$15000\n4-Shorts...$25000\n5-Calzado...$50000\n0-Salir del programa 📤'));
 let total = 0;
 
-
 while (codProd != 0) {
     switch (codProd) {
         case 1:
@@ -75,10 +74,6 @@ if (total != 0) {
         alert('Codigo inválido 😕');
     }
 }
-
-
-
-
 
 function aplicarImpuestosyDescuentos(impuestos, descuentos) {
     let totalConImpuestos = total * (1 + impuestos);
