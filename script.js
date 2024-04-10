@@ -1,13 +1,15 @@
 const productos = [
-    { id: "1", nombre: "Remera", precio: 5000 },
-    { id: "2", nombre: "Pantalon", precio: 8000 },
-    { id: "3", nombre: "Blazer", precio: 18000 },
-    { id: "4", nombre: "Sueter", precio: 12000 },
-    { id: "5", nombre: "Top", precio: 15000 },
-    { id: "6", nombre: "Zapatos", precio: 20000 },
-    { id: "7", nombre: "Zapatillas", precio: 10000 },
+    { id: "1", nombre: "Remera", precio: 5000, img:"" },
+    { id: "2", nombre: "Pantalon", precio: 8000, img:""  },
+    { id: "3", nombre: "Blazer", precio: 18000,  img:""  },
+    { id: "4", nombre: "Sueter", precio: 12000,  img:"" },
+    { id: "5", nombre: "Top", precio: 15000,  img:"" },
+    { id: "6", nombre: "Zapatos", precio: 20000, img:"" },
+    { id: "7", nombre: "Zapatillas", precio: 10000, img:""},
 
 ];
+
+
 
 const IVA = 0.21;
 const DESC_EF = 0.1;
@@ -135,13 +137,13 @@ function aplicarImpuestosyDescuentos(impuestos, descuentos) {
         totalConImpuestosYDescuentos = totalConImpuestos;
     }
     return totalConImpuestosYDescuentos;
-}
+} 
 
 
 
+//Final
 
-
-
+// Modelo Viejo
 
 /* const IVA = 0.21;
 const DESC_EF = 0.1;
@@ -234,7 +236,10 @@ function aplicarImpuestosyDescuentos(impuestos, descuentos) {
 
 
  */
-/* const usuarios = [
+
+// TRABAJOS REALIZADOS EN CLASES PARA CONCEPTOS
+
+/*const usuarios = [
     {
         id: 1,
         name: "Leanne Graham",
